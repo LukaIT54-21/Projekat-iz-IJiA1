@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Turizam Loznice</title>
+
+</head>
+<body>
+    <div id="logo">
+        Ja volim LOZNICU
+    </div>
+    <div id="naslov">
+        <ul>
+            <li class="link"><a href="pocetna.html">Početna</a></li>
+            <li class="link"><a href="O Nama.html">O nama</a></li>
+            <li class="link"><a href="prijava.html">Prijava</a></li>
+        </ul>
+    </div>
+    <hr>
+    <hr>
+    <h3>Onlajn popuna podataka i prijava za kupovinu karte:</h3>
+    <fieldset class="prijava">
+        <legend class="prijava">Formular za kupovinu karte i ostalih pogodnosti</legend>
+        <form>
+            <br>Unesite Vase ime:<input type="text" name="ime">
+            <br><br>Unesite Vaše prezime:<input type="text" name="prezime">
+            <br><br>Unesite Vaš JMBG:<input type="number" name="JMBG">
+            <br><br>Unesite Vaš kontakt telefon:<input type="tel" name="broj">
+            <br><br>Unesite Vaš datum rodjenja:<input type="date" name="rodj">
+            <br><br><fieldset class="zaposlen">
+                <legend>Da li imate posao?</legend>
+                <input type="radio" name="zaposlen">Zaposlen
+                <input type="radio" name="zaposlen">Nezaposlen
+            </fieldset>
+            <br>Cenovni rang za pogodnosti,popuste itd:<select>
+                <option name="cena"selected>...</option>
+                <option name="cena">5.000-10.000din</option>
+                <option name="cena">10.000-15.000din</option>
+                <option name="cena">15.000-25.000din</option>
+                <option name="cena">25.000-???din</option>
+            </select>
+            <br><br><input type="submit" class="dugme" name="prijava" value="Pošalji prijavu">
+        </form>
+    </fieldset>
+    <hr>
+    <hr>
+</body>
+</html>
